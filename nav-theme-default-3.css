@@ -1,22 +1,17 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-nav {
+.nav_3 {
     position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
+    margin-top: 20px;
     max-width: 80%;
     height: 40px;
     background-color: #FFFFFF;
     color: #c6c6c6;
 }
 
-.nav ul {
+.nav_3 ul {
     display: flex;
     align-items: center;
     list-style: none;
@@ -25,52 +20,52 @@ nav {
     height: 40px;
 }
 
-.nav li {
+.nav_3 li {
     padding: 0 20px;
     margin: 0;
     height: 40px;
     padding-top: 10px;
 }
 
-.nav li:hover {
+.nav_3 li:hover {
     background-color: #32CD32;
 }
 
-a {
+.a_3 {
     text-decoration: none;
     font-size: 14px;
-    color: white;
+    color: #c6c6c6;
 }
 
 
-.list {
+.list_3 {
     display: flex;
     flex-direction: column;
     gap: 5px;
 }
 
-.line1 {
+.line1_3 {
     width: 25px;
     height: 1px;
-    border: 2px solid white;
+    border: 2px solid #c6c6c6;
     border-radius: 10%;
 }
 
-.line2 {
+.line2_3 {
     width: 25px;
     height: 2px;
-    border: 2px solid white;
+    border: 2px solid #c6c6c6;
     border-radius: 10%;
 }
 
-.line3 {
+.line3_3 {
     width: 25px;
     height: 2px;
-    border: 2px solid white;
+    border: 2px solid #c6c6c6;
     border-radius: 10%;
 }
 
-.circle{
+.circle_3 {
     position: absolute;
     top: 10px;
     right: 30px;
@@ -80,7 +75,7 @@ a {
     border: 3px solid #c6c6c6;
 }
 
-.handle{
+.handle_3 {
     position: absolute;
     width: 13px;
     border: 2px solid #c6c6c6;

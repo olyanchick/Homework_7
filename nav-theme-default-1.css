@@ -3,17 +3,23 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: rgb(218, 218, 218);
+}
 
-nav {
+
+.nav {
     position: relative;
     display: flex;
     justify-content: flex-start;
     align-items: center;
     margin: 0 auto;
+    margin-top: 20px;
     max-width: 80%;
     height: 40px;
     background-color: green;
     color: white;
+    border-radius: 10px;
 }
 
 .nav ul {
@@ -36,7 +42,12 @@ nav {
     background-color: #32CD32;
 }
 
-a {
+.nav li:first-child:hover {
+    background-color: #32CD32;
+    border-radius: 10px;
+}
+
+.a_1 {
     text-decoration: none;
     font-size: 14px;
     color: white;
